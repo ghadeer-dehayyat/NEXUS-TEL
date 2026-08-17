@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# NEXUS-TEL local data
+data/*.csv
+data/*.zip
+data/*.json
+
+# Environment variables
+.env
+.env.*
+!.env.example
